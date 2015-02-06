@@ -32,6 +32,7 @@
 		F6DAB0E51A8437E0003DE474 /* CCArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DAB0E41A8437E0003DE474 /* CCArmor.m */; };
 		F6DAB0E81A843991003DE474 /* CCCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DAB0E71A843991003DE474 /* CCCharacter.m */; };
 		F6DAB0EB1A84A615003DE474 /* CCBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DAB0EA1A84A615003DE474 /* CCBoss.m */; };
+		F6DAB0EE1A84B375003DE474 /* test.m in Sources */ = {isa = PBXBuildFile; fileRef = F6DAB0ED1A84B375003DE474 /* test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,8 @@
 		F6DAB0E71A843991003DE474 /* CCCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCCharacter.m; sourceTree = "<group>"; };
 		F6DAB0E91A84A615003DE474 /* CCBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCBoss.h; sourceTree = "<group>"; };
 		F6DAB0EA1A84A615003DE474 /* CCBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCBoss.m; sourceTree = "<group>"; };
+		F6DAB0EC1A84B375003DE474 /* test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test.h; sourceTree = "<group>"; };
+		F6DAB0ED1A84B375003DE474 /* test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = test.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				F6DAB09E1A840CD8003DE474 /* AppDelegate.m */,
 				F6DAB0A01A840CD8003DE474 /* ViewController.h */,
 				F6DAB0A11A840CD8003DE474 /* ViewController.m */,
+				F6DAB0EC1A84B375003DE474 /* test.h */,
+				F6DAB0ED1A84B375003DE474 /* test.m */,
 				F6DAB0A31A840CD8003DE474 /* Main.storyboard */,
 				F6DAB0A61A840CD8003DE474 /* Images.xcassets */,
 				F6DAB0A81A840CD8003DE474 /* LaunchScreen.xib */,
@@ -326,6 +331,7 @@
 				F6DAB09F1A840CD8003DE474 /* AppDelegate.m in Sources */,
 				F6DAB0E81A843991003DE474 /* CCCharacter.m in Sources */,
 				F6DAB09C1A840CD8003DE474 /* main.m in Sources */,
+				F6DAB0EE1A84B375003DE474 /* test.m in Sources */,
 				F6DAB0C21A841457003DE474 /* CCTile.m in Sources */,
 				F6DAB0E51A8437E0003DE474 /* CCArmor.m in Sources */,
 				F6DAB0E21A8437BE003DE474 /* CCWeapon.m in Sources */,
@@ -520,6 +526,7 @@
 				F6DAB0BB1A840CD8003DE474 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F6DAB0BC1A840CD8003DE474 /* Build configuration list for PBXNativeTarget "GamePirateTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +535,7 @@
 				F6DAB0BE1A840CD8003DE474 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
